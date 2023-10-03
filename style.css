@@ -1,0 +1,28 @@
+.search-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+label {
+  font-size: 2rem;
+}
+input {
+  font-size: 1.5rem;
+}
+.users-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1rem;
+}
+.user-card {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  > h2 {
+    opacity: 0.7;
+  }
+}
+.hide {
+  display: none;
+}
